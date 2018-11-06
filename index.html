@@ -1,0 +1,29 @@
+<html>
+    <head>
+		<link rel="stylesheet" href="main.css">
+		<title>Rock Paper Scissors</title>
+	</head>
+	<body>
+		<div class="content">
+			<p class="header">Rock Paper Scissors</p>
+			<br>
+			<br>
+			<br>
+			<p class="ready_text" id="ready_text">Choose Your Game Mode: </p>
+			<br>
+			<a class="ready_btn" id="ready" href="#" onclick="yesBtnClicked()">2 Player</a>
+			<p class="player_begin" id="player_begin"></p>
+			<br>
+			<a onclick="playAgain()" id="playAgainBtn" class="sbuttons" hidden>Play Again With Same People</a>
+			<a href="index.html" id="playAgainNew" class="sbuttons" hidden>Play Again With New People</a>
+			<a href="#" id="p1_r" onclick="p11(1)" class="sbuttons" hidden>Rock</a>
+			<a href="#" id="p1_p" onclick="p11(2)" class="sbuttons" hidden>Paper</a>
+			<a href="#" id="p1_s" onclick="p11(3)" class="sbuttons" hidden>Scissors</a>
+			<a href="#" id="p2_r" onclick="p22(1)" class="sbuttons" hidden>Rock</a>
+			<a href="#" id="p2_p" onclick="p22(2)" class="sbuttons" hidden>Paper</a>
+			<a href="#" id="p2_s" onclick="p22(3)" class="sbuttons" hidden>Scissors</a>
+		</div>
+	</body>
+	<script src="app.js">
+	</script>
+</html>
