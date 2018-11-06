@@ -1,0 +1,64 @@
+html, body, h1, h2, p, ul, ol, img, h4 {
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    font-size: 100%;
+    font:inherit;
+	font-family: helvetica, "Helvetica Neue", sans-serif;
+}
+body{
+	background-color: #47484B;
+}
+.content{
+    max-width: 750px;
+    margin: auto;
+    background-color: white;
+    padding: 10px;
+
+}
+.header{
+	font-size: 30px;
+	font-weight: bolder;
+	text-align: center;
+	color: #47484B;
+}
+.ready_text{
+	font-size: 24px;
+	font-weight: bold;
+	color: #47484B;
+}
+.ready_btn{
+	font-size: 24px;
+	color: #47484B;
+	text-decoration: none;
+	border-style: solid;
+	border-width: 3px;
+}
+.ready_btn:hover{
+	transition: 0.4s;
+	color: white;
+	background-color: #47484B;
+	border-style: solid;
+	border-width: 3px;
+}
+.player_begin{
+	font-size: 20px;
+	font-weight: bold;
+}
+.sbuttons{
+	color: #47484B;
+	text-decoration: none;
+	border-style: solid;
+	border-width: 3px;
+	font-size: 24px;
+}
+.sbuttons:hover{
+	transition: 0.4s;
+	color: white;
+	background-color: #47484B;
+	text-decoration: none;
+	border-style: solid;
+	border-width: 3px;
+}
+.git-image{
+  align-items: center;
+}
